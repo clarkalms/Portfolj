@@ -1,0 +1,46 @@
+.navbar {
+    background: transparent;
+    height: 64px;
+    z-index: 2;
+    transition: all 1s ease;
+}
+
+.nav-overlay {
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(17,17,17,.6);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav-bar-logo {
+    z-index: 1;
+}
+.nav-logo-img {
+    height: 47.92px;
+    width: 42.64px;
+}
+
+
+
+.social-items {
+    float: right;
+}
+
+.fa-github, .fa-linkedin {
+    color: #fff;
+    opacity: .8;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.show {
+    height: 100vh;
+    background-color: #111!important;
+}

@@ -1,0 +1,9 @@
+.header {
+    background-image: url("../../images/backgroundImg.jpg");
+    background-size: cover;
+    height: 580px;
+    width: auto;
+    position: relative;
+    top: 0;
+    color: #fff;
+}
