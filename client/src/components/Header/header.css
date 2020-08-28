@@ -1,0 +1,15 @@
+.header-wrapper {
+	background: linear-gradient(rgba(31, 40, 51, 0.3), rgba(85, 122, 149, 0.2)),
+		url('../../images/PortfolioHeaderImg.jpeg');
+	backdrop-filter: brightness(20%);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	color: #fff;
+	box-sizing: border-box;
+	padding-top: 100px;
+	top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+}

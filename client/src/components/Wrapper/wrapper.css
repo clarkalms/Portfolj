@@ -1,0 +1,22 @@
+@font-face {
+	font-family: Moon;
+	src: url(../../fonts/MOON/Moon2.0-Regular.otf);
+}
+@font-face {
+	font-family: Moon-Bold;
+	src: url(../../fonts/MOON/Moon2.0-Bold.otf);
+}
+@font-face {
+	font-family: Genuine;
+	src: url(../../fonts/GENUINE.ttf);
+}
+@font-face {
+	font-family: Nanotech;
+	src: url(../../fonts/Nanotech/NanoTechRegular.otf);
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	font-family: Nanotech;
+}
