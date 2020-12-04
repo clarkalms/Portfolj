@@ -1,0 +1,40 @@
+.contact-form {
+	padding: 2rem;
+}
+.contact-form form {
+	color: #61dafb;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.top-border {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #fff;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+}
+
+.title {
+	/* text-align: center; */
+}
+
+.form-group input,
+.form-group textarea {
+	background-color: #61dafb;
+	background-color: #282c34;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom: 7px, solid, #fff;
+	border-radius: 0;
+	color: #61dafb;
+	box-shadow: none;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+	background-color: #282c34;
+	caret-color: #61dafb;
+	color: #61dafb;
+	box-shadow: none;
+}

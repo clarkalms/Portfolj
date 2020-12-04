@@ -1,0 +1,50 @@
+.handle {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	width: 450px;
+}
+
+.handle-img {
+	height: auto;
+	width: 100%;
+}
+
+.click-div {
+	height: 60px;
+	width: 350px;
+	background-color: transparent;
+	/* background-color: #fff; */
+	position: absolute;
+	top: 0;
+	margin-top: 210px;
+	margin-left: 50px;
+}
+
+.click-div:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	.handle {
+		position: absolute;
+		top: 65%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: auto;
+		width: 300px;
+	}
+
+	.click-div {
+		height: 40px;
+		width: 245px;
+		background-color: transparent;
+		/* background-color: #fff; */
+		position: absolute;
+		top: 0;
+		margin-top: 140px;
+		margin-left: 30px;
+	}
+}

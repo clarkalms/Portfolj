@@ -2,14 +2,15 @@
 	overflow: hidden;
 }
 .navbar {
-	background: transparent;
-	height: 64px;
+	background: black;
+	height: 100vh;
+	width: 100px;
 	z-index: 2;
 	transition: all 1s ease;
 }
-.navbar-collapse {
+/* .navbar-collapse {
 	margin-left: -60px;
-}
+} */
 .nav-overlay {
 	position: fixed;
 	z-index: 15;
@@ -34,9 +35,6 @@ a.navbar-logo {
 a.navbar-logo :hover {
 	color: #557a95;
 	text-decoration: none;
-}
-a.nav-link :hover {
-	color: #557a95;
 }
 
 .nav-logo-img {
@@ -80,6 +78,10 @@ a.socials-link :hover {
 	color: #fff;
 	margin: auto 16px;
 	font-weight: 800;
+	transform: rotate(-90deg);
+}
+.nav-link :hover {
+	color: red !important;
 }
 
 .show .nav-link {
